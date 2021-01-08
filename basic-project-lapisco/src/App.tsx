@@ -1,8 +1,11 @@
 import React from 'react';
-
+import Welcome from '../src/views/Welcome'
 function App() {
   return (
-    <h1>Lapisco</h1>
+    <div>
+      <Welcome fullname = {"Raul Aquino"} />
+      {/* <Welcome fullname = {"Nityananda Barbosa"} /> */}
+    </div>
   );
 }
 
