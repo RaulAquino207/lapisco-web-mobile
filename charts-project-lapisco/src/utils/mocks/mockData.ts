@@ -54,3 +54,30 @@ export const mockDataPieChartDespesas = [
     value: 3000,
   },
 ];
+
+export const mockVariableRadiusPieChart = [
+  {
+    country: "Lithuania",
+    value: 260
+  },
+  {
+    country: "Czechia",
+    value: 230
+  },
+  {
+    country: "Ireland",
+    value: 200
+  },
+  {
+    country: "Germany",
+    value: 165
+  },
+  {
+    country: "Australia",
+    value: 139
+  },
+  {
+    country: "Austria",
+    value: 128
+  }
+];

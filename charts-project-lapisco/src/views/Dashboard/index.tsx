@@ -2,9 +2,11 @@ import React from "react";
 import { Card, CardBody, CardTitle, Col, Row } from "reactstrap";
 import BarLineMixChart from "../../components/charts/BarLineMixChart";
 import PieChart from "../../components/charts/PieChart";
+import VariableRadiusPieCharts from "../../components/charts/VariableRadiusPieChart"
 import {
   mockDataBarLineDemand,
   mockDataPieChartDespesas,
+  mockVariableRadiusPieChart
 } from "../../utils/mocks/mockData";
 import { Styles } from "./styles";
 
@@ -28,9 +30,9 @@ function App() {
           <Card>
             <CardTitle>Despesas do mês atual</CardTitle>
             <CardBody>
-              <PieChart
-                data={mockDataPieChartDespesas}
-                chartId={"chartPieDespesas"}
+              <VariableRadiusPieCharts 
+                data={mockVariableRadiusPieChart}
+                chartId={"chartPie3D"}
               />
             </CardBody>
           </Card>
